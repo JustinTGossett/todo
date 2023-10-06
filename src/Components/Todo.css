@@ -1,0 +1,46 @@
+.todo{
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+}
+
+.container{
+  margin-top: 100px;
+  background: purple;
+  width: 400px;
+  height: 500px;
+  border-radius: 12px;
+}
+
+.title{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.container textarea{
+  width: 250px;
+  margin-left: 15px;
+  height: 25px;
+  background-color: lightblue;
+  resize: none;
+  border-radius: 12px;
+  font-size: 25px;
+}
+
+.container button{
+  margin-left: 15px;
+  height: 40px;
+}
+
+.list{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.item{
+  margin-bottom: 5px;
+}
